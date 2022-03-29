@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import BaiTapComponent from './Component/BaiTapLayoutComponent/BaiTapComponent.jsx';
+import DemoVongLap from './Component/CauTrucVongLap/DemoVongLap';
+import BtVongLap from './Component/CauTrucVongLap/BTVongLap/BtVongLap';
+import DemoProps from './Props/DemoProps';
+import BaiTapTruyenFuncTion from './Component/BaiTapTruyenfunction/BaiTapTruyenFuncTion';
+import BtFilm from './Component/BtFilm/BtFilm';
+import BtGioHang from './Component/BtGioHang/BtGioHang';
+import BtGioHangRedux from './Component/BtRedux/BtGioHangRedux/BtGioHangRedux';
+import BaiTapMatKinh from './Component/BaiTapMatKinh/BaiTapMatKinh';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BaiTapComponent />
+      {/* <DemoVongLap/> */}
+      {/* <BtVongLap/> */}
+      {/* <DemoProps/> */}
+      {/* <BaiTapTruyenFuncTion/> */}
+      {/* <BtFilm/> */}
+      {/* <BtGioHang/> */}
+      {/* <BtGioHangRedux/> */}
+      {/* <BaiTapMatKinh/> */}
     </div>
   );
 }
